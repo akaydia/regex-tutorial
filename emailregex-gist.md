@@ -1,11 +1,8 @@
 # Email Regex Tutorial
 
-Regular expressions are a tool that can be used to match patterns in strings. In this tutorial, we will cover the regex that matches an email address.
-
+Regular expressions are a powerful tool for finding patterns in strings. In this tutorial, we'll focus on the regular expression that matches an email address, which is a common use case for regular expressions.
 ## Summary
-This tutorial will cover the url that matches an email address. 
-Matching an Email: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
-
+This tutorial provides an in-depth explanation of the regular expression used to match email addresses: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/. We'll break down each component of the regular expression, explaining what it does and how it works. Additionally, we'll cover some related topics, such as anchors, quantifiers, grouping constructs, bracket expressions, character classes, the OR operator, flags, and character escapes.
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -71,5 +68,5 @@ Escape sequences match literal characters rather than using their special meanin
 - `\_` matches a literal underscore character ("_") rather than using its special meaning as a word boundary marker in some regex flavors.
 
 ## Author
-
+Hi there, I'm Ricky and I'm an aspiring software engineer. I enjoy learning about new technologies and implementing them in fullstack projects. From styling a website to building a backend API, I enjoy all these different aspects in software development. I hope to learn more algorithms and data structures in the future.
 This tutorial was written by [Ricky](https://github.com/akaydia).
